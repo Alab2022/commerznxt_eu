@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" viewBox="0 0 32 31">
+  <g id="Group_4374" data-name="Group 4374" transform="translate(-1099 -21)">
+    <g id="Group_4373" data-name="Group 4373">
+      <g id="Rectangle_1897" data-name="Rectangle 1897" transform="translate(1099 21)" fill="#fff" stroke="#e8e8e8" stroke-width="1">
+        <rect width="32" height="31" rx="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="31" height="30" rx="6.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_3822" data-name="Group 3822" transform="translate(-590.227 -7.5)">
+      <g id="Group_11" data-name="Group 11" transform="translate(1697.733 35)">
+        <g id="Icon_ionic-ios-notifications-outline" data-name="Icon ionic-ios-notifications-outline" transform="translate(0)">
+          <path id="Path_3" data-name="Path 3" d="M12.223,18.891a.389.389,0,0,0-.382.307.753.753,0,0,1-.15.328.568.568,0,0,1-.484.177.577.577,0,0,1-.484-.177.753.753,0,0,1-.15-.328.389.389,0,0,0-.382-.307h0a.392.392,0,0,0-.382.478,1.343,1.343,0,0,0,1.4,1.115,1.34,1.34,0,0,0,1.4-1.115.393.393,0,0,0-.382-.478Z" transform="translate(-3.728 -3.25)" fill="#3e5cbc"/>
+          <path id="Path_4" data-name="Path 4" d="M19.318,16.23c-.722-.932-2.143-1.479-2.143-5.654,0-4.285-1.932-6.008-3.733-6.421-.169-.041-.291-.1-.291-.271V3.75a1.138,1.138,0,0,0-1.125-1.13H12a1.138,1.138,0,0,0-1.125,1.13v.133c0,.17-.122.23-.291.271-1.805.418-3.733,2.136-3.733,6.421,0,4.175-1.421,4.717-2.143,5.654a.911.911,0,0,0,.746,1.461H18.586A.911.911,0,0,0,19.318,16.23Zm-1.829.266H6.554a.2.2,0,0,1-.155-.335,5.551,5.551,0,0,0,.985-1.534,10.217,10.217,0,0,0,.671-4.051,6.931,6.931,0,0,1,.98-3.987,3.011,3.011,0,0,1,1.815-1.268,1.652,1.652,0,0,0,.872-.482.376.376,0,0,1,.558-.009,1.708,1.708,0,0,0,.882.491,3.011,3.011,0,0,1,1.815,1.268,6.931,6.931,0,0,1,.98,3.987,10.217,10.217,0,0,0,.671,4.051,5.616,5.616,0,0,0,1.008,1.557A.19.19,0,0,1,17.489,16.5Z" transform="translate(-4.517 -2.62)" fill="#3e5cbc"/>
+        </g>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(1707.11 36.629)" fill="#f97b7e" stroke="#fff" stroke-width="1">
+        <circle cx="2.715" cy="2.715" r="2.715" stroke="none"/>
+        <circle cx="2.715" cy="2.715" r="2.215" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
