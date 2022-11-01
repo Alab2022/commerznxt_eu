@@ -1709,8 +1709,8 @@ padding: 10px;
   color: #4a4949;
 }
 .mini-div{
-  width: 40px;
-  height: 2px;
+  width: 50px;
+  height: 3px;
   background: #F98F45;
   margin: auto;
   margin-bottom: 15px;
@@ -1865,3 +1865,79 @@ i.bi.bi-exclamation-circle.text-primary {
   font-size: 40px;
 }
 /* Purchase css ends here///////////////////////////////////////////////////////////////// */
+
+/* End user dashboard CSS starts ////////////////////////////////////////////////////////////////////////////////////////// */
+
+button.btn.btn-warning {
+  background: #F59E0B;
+  color: #fff;
+}
+.db {
+  margin: 10px 0;
+}
+h5.tint-blue {
+  font-size: 20px !important;
+  color: #63719C !important;
+}
+.cs-sty {
+  color: #fff !important;
+}
+.cs-sty h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.cs-sty .card-heading h4 {
+  color: #fff;
+  margin-top: 10px;
+}
+.btn.btn-light {
+  white-space: nowrap;
+  background: #E5E5E5;
+  color: #677C97;
+}
+.R-cus-q {
+  width: 850px;
+  margin: auto;
+}
+.rm-mw{
+  max-width: 850px !important;
+}
+button.btn.btn-info {
+  background: #63719C;
+  border: none;
+  color: #fff;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+  background: #63719C;
+  border: none;
+  color: #fff;
+}
+.eu tbody tr td input {
+  width: 100%;
+  outline: none;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 0.9rem;
+}
+.faded{
+  background-color: #F1F1F1;
+}
+input.spe-in {
+  width: 35px;
+  padding: 0px 5px;
+  text-align: center;
+}
+.left .content-1 textarea {
+  width: 370px;
+  color: #9E9E9E;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  max-height: 140px;
+  height: 100%;
+}
+.tb-rndd {
+  color: #F15A29 !important;
+  border-radius: 50%;
+  padding: 7px 11px;
+  border: none;
+}
+/* End user dashboard CSS ends ////////////////////////////////////////////////////////////////////////////////////////// */

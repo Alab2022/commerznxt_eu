@@ -82,13 +82,76 @@
 //   data: data,
 //   options: pieOptions
 // });
-
+Highcharts.chart('geography', {
+    chart: {
+      type: 'bar',
+      height : 330
+    },
+    title: {
+      text: ''
+    },
+    subtitle: {
+      text: ''
+    },
+    xAxis: {
+      categories: ['Darlington', 'Blackpool', 'Bristol', 'Europe', 'Oceania'],
+      title: {
+        text: null
+      }
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Population (millions)',
+        align: 'high'
+      },
+      labels: {
+        overflow: 'justify'
+      }
+    },
+    tooltip: {
+      valueSuffix: ' millions'
+    },
+    plotOptions: {
+      bar: {
+        dataLabels: {
+          enabled: true
+        }
+      },
+      series: {
+        pointWidth: 30,
+        pointPadding:-4,
+        groupPadding: 0,
+    }
+    },
+    legend: {
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'top',
+      x: -40,
+      y: 80,
+      floating: true,
+      borderWidth: 1,
+      backgroundColor:
+        Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
+      shadow: true
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+      name: 'Year 1990',
+      colorByPoint: true,
+      data: [6031, 7027, 3202, 7021, 2666],
+      colors:['#63719C','#97CDCD','#98B694','#698473', '#98B694']
+    }]
+  });
 FusionCharts.ready(function(){
   var chartObj = new FusionCharts({
 type: 'doughnut2d',
 renderAt: 'chart-container',
-width: '360',
-height: '340',
+width: '280',
+height: '280',
 dataFormat: 'json',
 dataSource: {
     "chart": {
@@ -101,7 +164,7 @@ dataSource: {
         "bgColor": "#ffffff",
         "startingAngle": "310",
         "showLegend": "1",
-        "defaultCenterLabel": "Total Customers: 100",
+        // "defaultCenterLabel": "Total Customers: 100",
         "centerLabel": "Customers $label: $value",
         "centerLabelBold": "1",
         "showTooltip": "0",
@@ -110,7 +173,7 @@ dataSource: {
         "valuePosition":"inside",
         "labelPosition":"inside",
         "showlabels": "0",
-        "palettecolors": "98B694,63719C"
+        "palettecolors": "#63719C,#FC8B2A"
     },
     "data": [{
         "label": "Last Month",

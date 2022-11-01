@@ -158,6 +158,5 @@ Highcharts.chart('geography', {
   });
 
 
-
 });
 
