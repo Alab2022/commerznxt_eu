@@ -149,21 +149,27 @@ Highcharts.chart('geography', {
 FusionCharts.ready(function(){
   var chartObj = new FusionCharts({
 type: 'doughnut2d',
-renderAt: 'chart-container',
-width: '280',
-height: '280',
+renderAt: 'chart-container-eu',
+width: '200',
+height: '160',
 dataFormat: 'json',
 dataSource: {
     "chart": {
-      "baseFont": "Verdana",
+      "baseFont": "mulish",
     "baseFontSize": "15",
     "baseFontColor": "#ffffff",
     "outCnvBaseFontColor": "#fff",
         "numberPrefix": "",
         "labelFontBold": "1",
-        "bgColor": "#ffffff",
+        "chartLeftMargin": "-60",
+    "chartTopMargin": "-20",
+    "chartRightMargin": "0",
+    "chartBottomMargin": "0",
+        // "bgColor": "#ffffff",
         "startingAngle": "310",
-        "showLegend": "1",
+        "showLegend": "",
+        "legendPosition": "right",
+        "showLegendValue": "0",
         // "defaultCenterLabel": "Total Customers: 100",
         "centerLabel": "Customers $label: $value",
         "centerLabelBold": "1",
@@ -173,15 +179,17 @@ dataSource: {
         "valuePosition":"inside",
         "labelPosition":"inside",
         "showlabels": "0",
-        "palettecolors": "#63719C,#FC8B2A"
+        "palettecolors": "#FC8B2A,#63719C"
     },
-    "data": [{
-        "label": "Last Month",
-        "value": "30"
-    }, {
-        "label": "This Month",
+    "data": [
+      {
+        "label": "Payments Made",
         "value": "70"
-    }]
+    },
+      {
+        "label": "Pending",
+        "value": "30"
+    } ]
 }
 }
 );

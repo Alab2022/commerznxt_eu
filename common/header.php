@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav mr5 main">
       <li class="nav-item">
-          <a class="nav-link" href="my-sales-analysis.php">Payment</a>
+          <a class="nav-link" href="payments.php">Payment</a>
         </li>
         <li class="nav-item inner dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Quotation <span><svg xmlns="http://www.w3.org/2000/svg" width="8.015" height="4.758" viewBox="0 0 8.015 4.758">
@@ -24,7 +24,7 @@
         
         
         <li class="nav-item">
-          <a class="nav-link" href="user-management.php">Orders</a>
+          <a class="nav-link" href="orders.php">Orders</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

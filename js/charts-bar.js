@@ -66,7 +66,7 @@ Highcharts.chart('geography', {
   Highcharts.chart('geography', {
     chart: {
       type: 'bar',
-      height : 330
+      height : 303
     },
     title: {
       text: ''
@@ -75,7 +75,7 @@ Highcharts.chart('geography', {
       text: ''
     },
     xAxis: {
-      categories: ['Darlington', 'Blackpool', 'Bristol', 'Europe', 'Oceania'],
+      categories: ['Order Placed', 'Shipped', 'In process', 'Delivered'],
       title: {
         text: null
       }
@@ -123,8 +123,8 @@ Highcharts.chart('geography', {
     series: [{
       name: 'Year 1990',
       colorByPoint: true,
-      data: [6031, 7027, 3202, 7021, 2666],
-      colors:['#63719C','#97CDCD','#98B694','#698473', '#98B694']
+      data: [6031, 7027, 3202, 7021],
+      colors:['#63719C','#97CDCD','#01D8DD','#429EBD']
     }]
   });
 $(document).ready(function() {
@@ -245,10 +245,10 @@ Highcharts.chart('chartcon', {
 });
 
 $(document).ready(function() {
-Highcharts.chart('topSelling', {
+Highcharts.chart('topSelling-eu', {
     chart: {
       type: 'column',
-      height:'300'
+      height:'205'
     },
   
     title: {
@@ -260,15 +260,15 @@ Highcharts.chart('topSelling', {
     },
   
     legend: {
-      align: 'center',
-      verticalAlign: 'bottom',
-      layout: 'horizontal'
+      enabled: false
     },
   
     xAxis: {
-      categories: ['Prod1', 'Prod2', 'Prod3', 'Prod4', 'Prod5'],
+      categories: ['CM001', 'CM002', 'CM003', 'CM004', 'CM005'],
       labels: {
-        x: -10,
+        style: {
+          color: '#fff'
+        },
         rotation:0,
       }
     },
@@ -276,28 +276,16 @@ Highcharts.chart('topSelling', {
     yAxis: {
       allowDecimals: false,
       title: {
-        text: 'Amount'
+        text: ''
+      },
+      labels:{
+        style:{
+          color:'#fff'
+        }
       }
     },
   
-    series: [{
-      name: '2021',
-      colorByPoint: false,
-      data: [38, 51, 34, 38, 51],
-      dataLabels: {
-        enabled: true,
-        rotation: -90,
-        color: '#FFFFFF',
-        align: 'right',
-        format: '{point.y:.1f}', // one decimal
-        y: 10, // 10 pixels down from the top
-        style: {
-          fontSize: '13px',
-          fontFamily: 'Verdana, sans-serif'
-        }
-      },
-      color : '#63719C',
-    }, {
+    series: [ {
       name: '2022',
       colorByPoint: false,
       data: [31, 26, 27, 31, 26],
@@ -313,7 +301,7 @@ Highcharts.chart('topSelling', {
           fontFamily: 'Verdana, sans-serif'
         }
       },
-      color : '#FC8B2A',
+      color : '#01D8DD',
     }],
     plotOptions: {
         column: {

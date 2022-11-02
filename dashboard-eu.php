@@ -38,18 +38,22 @@
       </div>
       <div class="col-md-4">
         <div class="col-md-12">
-          <div class="card card-pd">
-            <!-- <div class="eu-ch chart ">
-          <div id="chart-container">FusionCharts XT will load here!</div>
-          </div>
-          <div class="chart-content">
-            <h1>€38,633</h1>
-            <h6>Total  Order Value</h6>
-          </div> -->
-            <h6>chart place holder</h6>
+          <div class="card card-pd st-po-rel">
+            <div class="eu-ch chart ">
+              <div id="chart-container-eu">FusionCharts XT will load here!</div>
+            </div>
+            <div class="chart-content eu">
+              <h1>€38,633</h1>
+              <h6>Total Order Value</h6>
+              <div class="legent-cont">
+               <h6 style="margin-bottom: 10px;"> <span><img src="img/pr-d.png" alt=""></span> Payments Made <strong class="ml1">€18,633</strong> </h6>
+                <h6><span><img src="img/se-d.png" alt=""></span> Pending <strong class="ml1">€20,633</strong> </h6>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="row">
+        <div class="row eu">
           <div class="col-md-6">
             <div class="card card-pd">
               <h3>38</h3>
@@ -76,12 +80,12 @@
             <h4>Total Outstanding</h4>
             <h1 class="mb-2">€ 20,000</h1>
           </div>
-          <div class="card-heading fo-flx-sb-bl">
+          <div class="card-heading fo-flx-sb-bl mb-3">
             <h4>Last 5 Credit Days Due</h4>
 
           </div>
           <div class="chart-wrapper">
-
+          <div id="topSelling-eu"></div>
           </div>
 
 
@@ -180,7 +184,7 @@
 
 
             </div>
-            
+
 
             <div class="fo-flx-center">
               <h6>Showing 50 of 200</h6>
@@ -280,42 +284,42 @@
 
         </div>
         <div class="table-footer fo-flx-top mt-4">
-              <div class="left">
-                <div class="content-1 mb-3">
-                  <h5 class="mb-2">Comments</h5>
-                  <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                
-              </div>
-              <div class="right">
-                <div class="bg-tb-bottom">
-                  <table class="table">
-                    <tbody>
-                      <tr>
-                        <td>Sub Total</td>
-                        <td></td>
-                        <td>4500</td>
-                      </tr>
-                      <tr>
-                        <td>Req.Discount(5%)</td>
-                        <td><input class="spe-in" type="text" name="" id=""></td>
-                        <td>4500</td>
-                      </tr>
-                      <tr>
-                        <td class="remove-bo"><b>Total</b></td>
-                        <td></td>
-                        <td class="remove-bo"><b>4275</b></td>
-                      </tr>
-                    </tbody>
-                  </table>
+          <div class="left">
+            <div class="content-1 mb-3">
+              <h5 class="mb-2">Comments</h5>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+          </div>
+          <div class="right">
+            <div class="bg-tb-bottom">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>Sub Total</td>
+                    <td></td>
+                    <td>4500</td>
+                  </tr>
+                  <tr>
+                    <td>Req.Discount(5%)</td>
+                    <td><input class="spe-in" type="text" name="" id=""></td>
+                    <td>4500</td>
+                  </tr>
+                  <tr>
+                    <td class="remove-bo"><b>Total</b></td>
+                    <td></td>
+                    <td class="remove-bo"><b>4275</b></td>
+                  </tr>
+                </tbody>
+              </table>
 
 
-                </div>
-                <!-- <div class="alert">
+            </div>
+            <!-- <div class="alert">
                   <p>*This quotation does not required any seal or signature </p>
                 </div> -->
-              </div>
-            </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary">Submit</button>

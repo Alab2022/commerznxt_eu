@@ -1878,6 +1878,8 @@ button.btn.btn-warning {
 h5.tint-blue {
   font-size: 20px !important;
   color: #63719C !important;
+  margin: 0 !important;
+  font-weight: 700;
 }
 .cs-sty {
   color: #fff !important;
@@ -1939,5 +1941,48 @@ input.spe-in {
   border-radius: 50%;
   padding: 7px 11px;
   border: none;
+}
+div#chart-container-eu g.raphael-group-20-legend {
+  transform: translate(-30px, 35px);
+}
+.st-po-rel {
+  max-height: 177px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.st-po-rel .chart-content {
+  position: absolute;
+  left: 180px;
+}
+div#topSelling-eu rect.highcharts-background {
+  fill: #63719c;
+}
+.card.card-pd h3, h6 {
+  margin-bottom: 0;
+}
+.eu h3 {
+  font-weight: 800;
+  color: #616161 !important;
+}
+.eu h6 {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.eu h1 {
+  font-weight: 700;
+  color: #616161;
+}
+.card-chart-det h1 {
+  font-weight: 800;
+}
+.R-cus-q .modal-body.form-group {
+  padding: 20px 30px;
+}
+.legent-cont {
+  margin-top: 15px;
+}
+.eu strong {
+  font-weight: 800;
 }
 /* End user dashboard CSS ends ////////////////////////////////////////////////////////////////////////////////////////// */
